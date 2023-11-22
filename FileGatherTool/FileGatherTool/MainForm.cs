@@ -118,7 +118,7 @@ namespace FileGatherTool
             List<string> extRang = new List<string>();
             if (ceMusic.Checked)
             {
-                extRang.AddRange("MP3，WMA，WAV，APE，FLAC，OGG，AAC".Split(','));
+                extRang.AddRange("MP3, WMA,WAV,APE,FLAC,OGG,AAC".Split(','));
             }
 
             if (ceVideo.Checked)
